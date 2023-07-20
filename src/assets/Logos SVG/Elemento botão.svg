@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3.05 7.93">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: .2px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke: #fff;
+      }
+
+      .cls-2 {
+        stroke-width: .12px;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: .25px;
+      }
+    </style>
+  </defs>
+  <g id="OBJECTS_">
+    <rect class="cls-2" x=".06" y=".06" width="2.93" height="7.81" rx="1.46" ry="1.46"/>
+    <rect class="cls-1" x=".73" y="1.16" width="1.59" height="3.01" rx=".8" ry=".8"/>
+    <line class="cls-3" x1="1.52" y1="1.89" x2="1.52" y2="2.83"/>
+    <circle class="cls-3" cx="1.54" cy="6.67" r=".09"/>
+    <circle class="cls-3" cx="1.52" cy="4.9" r=".03"/>
+    <circle class="cls-3" cx="1.52" cy="5.76" r=".03"/>
+  </g>
+</svg>
