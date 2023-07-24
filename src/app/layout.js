@@ -1,7 +1,10 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import localFont from 'next/font/local'
 
-const inter = Inter({ subsets: ['latin'] })
+const avenixRegular = localFont({
+  src: '../assets/Fontes/Avenix-Regular.otf',
+  display: 'swap'
+})
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <body className={inter.className}>{children}</body>
+      <body className={avenixRegular.className}>{children}</body>
     </html>
   )
 }
