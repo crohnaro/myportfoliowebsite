@@ -1,11 +1,12 @@
 import styles from './page.module.css'
+import Header from '../components/Header/header'
 import './globals.css'
 
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <h2>Teste</h2>
+      <Header />
     </main>
   )
 }
