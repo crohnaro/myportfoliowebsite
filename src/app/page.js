@@ -1,12 +1,14 @@
-import styles from './page.module.css'
-import Header from '../components/Header/header'
-import './globals.css'
-
+import styles from "./page.module.css";
+import Header from "../components/Header/header";
+import "./globals.css";
+import { Container } from "@mui/material";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Header />
+      <Container maxWidth='xl'>
+        <Header />
+      </Container>
     </main>
-  )
+  );
 }

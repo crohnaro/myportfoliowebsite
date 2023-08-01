@@ -18,6 +18,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Kalixto-Thin' ;
+  src: url('../assets/Fontes/Kallisto/Kallisto\ Thin.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body{
   background-color: #111111;
 }
