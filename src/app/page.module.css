@@ -1,0 +1,19 @@
+.textContent {
+  margin-top: 100px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textContent h1 {
+  font-family: "Kalixto", sans-serif;
+  align-self: flex-start !important;
+  color: whitesmoke;
+}
+
+.textContent span {
+  font-family: "Avenix-Regular", sans-serif;
+  color: whitesmoke;
+  font-size: 100px;
+}
