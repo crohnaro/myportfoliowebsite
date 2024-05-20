@@ -3,7 +3,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: "Kalixto-Thin", sans-serif;
+  font-family: "Kalixto", sans-serif;
+  letter-spacing: 2px;
 }
 
 .logoContainer {
