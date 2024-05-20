@@ -1,7 +1,7 @@
 import styles from "./page.module.css";
 import Header from "../components/Header/header";
 import "./globals.css";
-import { Box, Container } from "@mui/material";
+import { Box, Button, Container } from "@mui/material";
 import ImageLogo from "@/components/ImageLogo/imageLogo";
 
 export default function Home() {
@@ -24,6 +24,10 @@ export default function Home() {
                 tecnologias e experiência em UX/UI. Acredito firmemente que a
                 paixão aliada ao empenho são essenciais para concretizar ideias.
               </p>
+            </Box>
+            <Box sx={{ display: "flex", gap: "12px"}}>
+              <button className={styles.hireMe}>ME CONTRATE</button>
+              <button className={styles.getInTouch}>ENTRE EM CONTATO</button>
             </Box>
           </Box>
           <Box>
