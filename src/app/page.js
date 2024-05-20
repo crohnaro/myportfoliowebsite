@@ -13,9 +13,9 @@ export default function Home() {
       <Box sx={{ width: "100%", display: "flex" }}>
         <Box className={styles.textContent}>
           <Box>
-            <h1>Oi, eu sou o</h1>
+            <h1>OI, EU SOU O</h1>
             <span>Vini</span>
-            <h2>Desenvolvedor Full-Stack</h2>
+            <h2>DESENVOLVEDOR FULL-STACK_</h2>
           </Box>
         </Box>
         <Box>

@@ -12,6 +12,11 @@
   color: whitesmoke;
 }
 
+.textContent h2 {
+  font-family: "Kalixto", sans-serif;
+  color: #bfff00;
+}
+
 .textContent span {
   font-family: "Avenix-Regular", sans-serif;
   color: whitesmoke;
