@@ -7,7 +7,8 @@ import styles from './imageLogo.module.css'
 export default function ImageLogo() {
   return (
     <aside className={styles.mainImageContainer}>
-        <Image
+        <Image 
+          className={styles.image}
           src={mainImage}
           width={0}
           height={0}
