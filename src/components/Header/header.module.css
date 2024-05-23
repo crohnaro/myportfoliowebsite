@@ -31,3 +31,26 @@
   -webkit-box-shadow: 0px 0px 27px 0px rgba(191, 255, 0, 0.75);
   -moz-box-shadow: 0px 0px 27px 0px rgba(191, 255, 0, 0.75);
 }
+
+.menuHamburguer{
+  fill: #bff000;
+  display: none;
+}
+
+.drawer{
+  font-family: "Kalixto", sans-serif;
+}
+
+@media (max-width: 768px){
+  .menuHamburguer{
+    display: block;
+  }
+  .menuLinks{
+    display: none;
+  }
+
+  .logoContainer{
+    width: 90px;
+  }
+
+}
