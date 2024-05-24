@@ -3,6 +3,8 @@ import Header from "../components/Header/header";
 import "./globals.css";
 import { Box, Button, Container } from "@mui/material";
 import ImageLogo from "@/components/ImageLogo/imageLogo";
+import BlackholeVideo from "@/components/BlackHoleVideo/blackholevideo";
+
 
 export default function Home() {
   return (
@@ -35,6 +37,7 @@ export default function Home() {
           </Box>
         </Box>
       </Container>
+      <BlackholeVideo />
     </main>
   );
 }
