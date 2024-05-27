@@ -1,6 +1,6 @@
 import BackGroundVideo from 'next-video/background-video'
 
-import blackholevideo from '../../../videos/blackholevideo.webm'
+import blackholevideo from '../../../videos/blackholevidei.mp4'
 
 export default function BlackholeVideo() {
     return (
