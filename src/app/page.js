@@ -1,10 +1,16 @@
 import styles from "./page.module.css";
 import Header from "../components/Header/header";
 import "./globals.css";
-import { Box, Button, Container } from "@mui/material";
+import { Box, Container } from "@mui/material";
 import ImageLogo from "@/components/ImageLogo/imageLogo";
 import BlackholeVideo from "@/components/BlackHoleVideo/blackholevideo";
 
+
+
+export const metadata = {
+  title: "Vini Dev",
+  description: "Meu Portfólio",
+};
 
 export default function Home() {
   return (
@@ -14,10 +20,10 @@ export default function Home() {
       </Container>
       <Container maxWidth="xl">
         <Box className={styles.mainContainer}>
-          <Box className={styles.textContent}>
+          <Box data-scroll-section className={styles.textContent}>
             <Box>
-              <h1>OI, EU SOU O</h1>
-              <span>Vini</span>
+              <h1 data-scroll data-scroll-speed="1">OI, EU SOU O</h1>
+              <span data-scroll data-scroll-speed="3">Vini</span>
               <h2>DESENVOLVEDOR FULL-STACK_</h2>
             </Box>
             <Box>

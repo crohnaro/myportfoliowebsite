@@ -33,8 +33,8 @@
 }
 
 .menuHamburguer{
-  fill: #bff000;
-  display: none;
+  fill: #bff000 !important;
+  display: none !important;
 }
 
 .drawer{
@@ -43,7 +43,7 @@
 
 @media (max-width: 768px){
   .menuHamburguer{
-    display: block;
+    display: block !important;
   }
   .menuLinks{
     display: none;
