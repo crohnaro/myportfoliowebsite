@@ -1,5 +1,6 @@
 .mainContainer{
   display: flex;
+  height: 100vh;
 }
 
 .textContent {
@@ -70,6 +71,7 @@
 @media (max-width: 1200px) {
   .mainContainer{
     flex-direction: column;
+    height: 100%;
   }
 
   .textContent{
